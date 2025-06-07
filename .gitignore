@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+
+# Optional cache and build directories
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+tmp/
+temp/
+
+# dotenv environment variables
+.env
+.env.*.local
+
+# VSCode settings
+.vscode/
+
+# Playwright test output
+test-results/
+playwright-report/
