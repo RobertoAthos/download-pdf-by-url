@@ -1,7 +1,8 @@
 # syntax = docker/dockerfile:1
 
 ARG NODE_VERSION=20.18.0
-FROM mcr.microsoft.com/playwright:v1.44.0-focal AS base  # imagem oficial com dependências do Playwright
+# imagem oficial com dependências do Playwright
+FROM mcr.microsoft.com/playwright:v1.44.0-focal AS base 
 
 LABEL fly_launch_runtime="Node.js"
 
