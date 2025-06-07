@@ -14,7 +14,7 @@ ENV NODE_ENV="production"
 FROM base AS build
 
 RUN apt-get update -qq && \
-    apt-get install --no-install-recommends -y build-essential node-gyp pkg-config python-is-python3
+    apt-get install --no-install-recommends -y build-essential pkg-config python3
 
 # Instala dependências da aplicação
 COPY package.json ./
